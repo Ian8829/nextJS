@@ -1,0 +1,15 @@
+{
+  "name": "nextJs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cosmicjs": "^2.39.91",
+    "next": "^3.0.1-beta.8",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "scripts": {
+    "start": "next"
+  }
+}
