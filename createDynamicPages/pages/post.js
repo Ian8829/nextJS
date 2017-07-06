@@ -7,8 +7,8 @@ const Content = props => (
   </div>
 );
 
-export default () => (
+export default (props) => (
   <Layout>
-    <Content/>
+    <Content url={props.url}/>
   </Layout>
 );
