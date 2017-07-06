@@ -1,10 +1,9 @@
 import React from 'react';
 
-import Header from '../comps/Header';
+import Layout from '../components/MyLayout';
 
 export default () => (
-  <div>
-    <Header/>
+  <Layout>
     <p>Bonjour Next.js!</p>
-  </div>
+  </Layout>
 );

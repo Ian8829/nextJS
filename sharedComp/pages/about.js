@@ -1,3 +1,7 @@
+import Layout from '../components/MyLayout';
+
 export default () => (
-  <div>This is the about page.</div>
+  <Layout>
+    <p>This is the about page.</p>
+  </Layout>
 )
