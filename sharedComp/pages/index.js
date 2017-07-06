@@ -1,7 +1,10 @@
-const Index = () => (
-  <div>
-    <p>Hello Next.js</p>
-  </div>
-)
+import React from 'react';
 
-export default Index
+import Header from '../comps/Header';
+
+export default () => (
+  <div>
+    <Header/>
+    <p>Bonjour Next.js!</p>
+  </div>
+);
