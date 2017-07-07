@@ -14,17 +14,6 @@ const PostLink = ({ post }) => (
     <Link as={`/p/${post.id}`} href={`/post?title=${post.title}`}>
       <a>{post.title}</a>
     </Link>
-  </li>
-);
-
-export default () => (
-  <Layout>
-    <h1>My Blog</h1>
-    <ul>
-      {getPosts().map(post => (
-        <PostLink key={post.id} post={post}/>
-      ))}
-    </ul>
     <style jsx>{`
       h1, a {
         font-family: "Arial";
@@ -48,5 +37,16 @@ export default () => (
         opacity: 0.6;
       }
     `}</style>
+  </li>
+);
+
+export default () => (
+  <Layout>
+    <h1>My Blog</h1>
+    <ul>
+      {getPosts().map(post => (
+        <PostLink key={post.id} post={post}/>
+      ))}
+    </ul>
   </Layout>
 );
